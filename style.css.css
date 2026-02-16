@@ -1,0 +1,79 @@
+/* Fondo general */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("Background.jpg"); /* Puedes cambiar por tu fondo real */
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* Contenedor central elegante */
+.container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: rgba(20, 20, 20, 0.85);
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Títulos */
+h1, h2, h3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Párrafos */
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Imágenes */
+img {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+body {
+  background-image: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(Background.jpg);
+    
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+
+h1, h2, h3{
+    text-align: center;
+}
+
+p{
+    font-size: 24px;
+}
+h1{
+    font-size: 38px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
