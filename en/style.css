@@ -1,0 +1,134 @@
+
+body {
+    background: linear-gradient(180deg, #0d0d0f 0%, #14141a 100%);
+    color: #e4e4e4;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("Background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: rgba(20, 20, 20, 0.85);
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+p {
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.modo-claro {
+    background-image: none;
+    background-color: white;
+    color: black;
+}
+
+.modo-claro .container {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#toggleModo {
+    width: 80px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: #000000;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 5px;
+
+    margin-top: 10px;     /* lo baja */
+    margin-left: 30px;    /* lo mueve a la derecha */
+}
+
+
+#toggleModo img {
+    width: 40px;
+    height: 40px;
+}
+
+#toggleModo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(139, 0, 0, 0.9);
+}
+
+.language-switch {
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.language-switch a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.language-switch a:hover {
+    text-decoration: underline;
+}
+
+.language-switch {
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.language-switch a {
+    text-decoration: none;
+    color: #aaa;
+    transition: color 0.3s ease;
+}
+
+.language-switch a:hover {
+    color: #fff;
+}
